@@ -9,7 +9,7 @@ For those who use computers
 
 # Addition of the last two rules
 
-* Ends with o1
+* Ends with 1
 
 ```plaintext
 O0      # Bad
