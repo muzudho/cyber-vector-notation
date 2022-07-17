@@ -69,9 +69,9 @@ Now you have mastered cyber notation
 
 # Translation method
 
-Add 1.1 to i.
-Add 1.1.1 to i.j.
-Add 1.1.1.1 to i.j.k.
+Add 1.1 to i.  
+Add 1.1.1 to i.j.  
+Add 1.1.1.1 to i.j.k.  
 
 Example:  
 
