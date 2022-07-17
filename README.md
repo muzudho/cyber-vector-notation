@@ -20,12 +20,14 @@ O2      # Bad
 O2o1    # Ok
 ```
 
-* o1 cannot be continuous
+* o1 cannot be placed after 1
 
 ```plaintext
 O1o1          # Bad
 O1o1o1        # Of course it's bad
 O1o2o1        # OK
+O1o11o1       # Of course it's OK
+
 O1o2o1o2o1    # OK
 O1o1o1o2o1    # Of course it's bad
 ```
