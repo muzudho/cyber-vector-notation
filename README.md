@@ -64,3 +64,33 @@ OAA100o8o1
 OAA100o9o1
 OAA100oA10o1
 ```
+
+Now you have mastered cyber notation  
+
+# Translation method
+
+Add 1.1 to i.
+Add 1.1.1 to i.j.
+Add 1.1.1.1 to i.j.k.
+
+Example:  
+
+```plaintext
+# Real world
+1.1 Fruits
+1.1.1 Apple
+1.2.1 Banana
+1.11.1 Kiwi
+1.2.1.2.1　Super banana
+1.1.1.2.1 Super apple
+
+# Cyber world
+O2o2o1 Fruits
+O2o2o2o1 Apple
+O2o3o2o1 Banana
+O2o12o2o1 Kiwi
+O2o3o2o3o2o1 Super banana
+O2o2o2o3o2o1 Super apple
+```
+
+You may be disliked because the number changes  
