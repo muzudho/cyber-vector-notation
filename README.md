@@ -10,8 +10,9 @@ For those who use computers
 # Install
 
 ```shell
-pip install dicordnum
-pip install beadsnum
+# pip install dicordnum
+# pip install beadsnum
+pip install cybernum
 ```
 
 # Explanation
