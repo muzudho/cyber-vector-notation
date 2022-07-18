@@ -7,7 +7,16 @@ For those who use computers
 📖 [dictionary-ordinal-number-notation](https://github.com/muzudho/dictionary-ordinal-number-notation)  
 📖 [beads-nested-number-notation](https://github.com/muzudho/beads-nested-number-notation)  
 
-# Addition of the last two rules
+# Install
+
+```shell
+pip install dicordnum
+pip install beadsnum
+```
+
+# Explanation
+
+## Addition of the last two rules
 
 * Ends with 1
 
@@ -32,7 +41,7 @@ O1o2o1o2o1    # OK
 O1o1o1o2o1    # Of course it's bad
 ```
 
-# Let's give an example
+## Let's give an example
 
 ```plaintext
 O0o1
@@ -67,7 +76,7 @@ OAA100oA10o1
 
 Now you have mastered cyber notation  
 
-# Translation method
+## Translation method
 
 Add 1.1 to i.  
 Add 1.1.1 to i.j.  
