@@ -2,6 +2,10 @@
 
 For those who use computers  
 
+Commentary by author:  
+
+📖 [電脳記数法 (Cyber Number Notation)](https://crieit.net/posts/Cyber-Number-Notation)  
+
 # Two prior knowledge
 
 📖 [dictionary-ordinal-number-notation](https://github.com/muzudho/dictionary-ordinal-number-notation)  
