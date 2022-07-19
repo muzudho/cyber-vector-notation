@@ -87,7 +87,9 @@ Add 1.1 to i.
 Add 1.1.1 to i.j.  
 Add 1.1.1.1 to i.j.k.  
 
-Example:  
+You may be disliked because the number changes  
+
+### Example O2o1 For Chapters
 
 ```plaintext
 # Real world
@@ -107,4 +109,36 @@ O2o3o2o3o2o1 Super banana
 O2o2o2o3o2o1 Super apple
 ```
 
-You may be disliked because the number changes  
+### Example O3o1 For Version
+
+```plaintext
+# When the user sees
+http://example.com/tic-tac-toe/v2.3/match-application/
+                               ----
+                               1
+1. Version
+
+# Local PC
+C://This/Is/A/Path/tic_tac_toe/o3o4o1/views/match_application/__init__.py
+                               ------
+                               1
+1. Version by Cyber number
+```
+
+👇 Conversion
+
+```plaintext
+  v2.3
++  1.1.1
+--------
+  o3o4o1
+```
+
+👇 Reverse conversion
+
+```plaintext
+  o3o4o1
+-  1.1.1
+--------
+  v2.3
+```
