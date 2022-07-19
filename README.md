@@ -89,6 +89,24 @@ Add 1.1.1.1 to i.j.k.
 
 You may be disliked because the number changes  
 
+👇 Conversion
+
+```plaintext
+   2.3    # Number
++  1.1.1
+--------
+  O3o4o1  # Cyber number
+```
+
+👇 Reverse conversion
+
+```plaintext
+  O3o4o1  # Cyber number
+-  1.1.1
+--------
+   2.3    # Number
+```
+
 ### Example O2o1 For Chapters
 
 ```plaintext
@@ -123,22 +141,4 @@ C://This/Is/A/Path/tic_tac_toe/o3o4o1/views/match_application/__init__.py
                                ------
                                1
 1. Version by Cyber number
-```
-
-👇 Conversion
-
-```plaintext
-  v2.3
-+  1.1.1
---------
-  o3o4o1
-```
-
-👇 Reverse conversion
-
-```plaintext
-  o3o4o1
--  1.1.1
---------
-  v2.3
 ```
