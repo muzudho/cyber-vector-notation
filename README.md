@@ -43,16 +43,47 @@ cn = CyberNum((3, 0))
 print(f"{cn.elements}")                # (3, 0)
 ```
 
-## Let's give an example
+# Let's give an example
+
+* It is considered to be used for variable names, class names, method names, file names, folder names, URLs, etc.
+
+## Cons
+
+👇 Previous zero  
+
+```plaintext
+# Normal
+0001
+
+# Cyber
+O1o0              # Pre-zero cannot be used
+```
+
+👇 Hexadecimal
+
+```plaintext
+# Normal
+0xFF
+
+# Cyber
+O255o0            # No. Use decimal
+```
+
+## Pros
 
 👇 For Version number  
 
 ```plaintext
 # Normal
-Version 1.0.1
+Version1.0.1
 
 # Cyber
-Version O1o0o1o0
+VersionO1o0o1o0   # Default
+VersionO1o0o1o0   # PascalCase
+versionO1o0o1o0   # lowerCamelCase
+version_o1o0o1o0  # snake_case
+version-o1o0o1o0  # kebab-case
+VERSION_O1O0O1O0  # UPPER_SNAKE_CASE
 ```
 
 👇 For IPv4  
@@ -62,7 +93,27 @@ Version O1o0o1o0
 128.0.0.1
 
 # Cyber
-OAA128o0o0o1o0
+OAA128o0o0o1o0  # Default
+Oaa128o0o0o1o0  # PascalCase
+oaa128o0o0o1o0  # lowerCamelCase
+oaa128o0o0o1o0  # snake_case
+oaa128o0o0o1o0  # kebab-case
+OAA128O0O0O1O0  # UPPER_SNAKE_CASE
+```
+
+👇 Negative number included  
+
+```plaintext
+# Normal
+20, 18, -1, -14, 5
+
+# Cyber
+OA20oA18o_9o__86o5  # Default
+Oa20oa18o_9o__86o5  # PascalCase (Bad)
+oa20oa18o_9o__86o5  # lowerCamelCase (Bad)
+oa20oa18o_9o__86o5  # snake_case
+oa20oa18o_9o__86o5  # kebab-case (Bad)
+OA20OA18O_9O__86O5  # UPPER_SNAKE_CASE
 ```
 
 👇 Folder
@@ -101,16 +152,6 @@ O1o1o0. Fruits
 O1o1o1o0. Apple
 O1o1o2o0. Banana
 O1o1oA11o0. Kiwi
-```
-
-👇 Negative number included  
-
-```plaintext
-# Normal
-20, 18, -1, -14, 5
-
-# Cyber
-OA20oA18o_9o__86o5
 ```
 
 Now you have mastered cyber notation  
