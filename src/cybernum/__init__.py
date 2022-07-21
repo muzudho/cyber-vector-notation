@@ -1,52 +1,58 @@
 from beadsvec import BeadsVec
+from dicordnum import DicOrdNum
 
 
 class CyberNum:
     """Cyber Number"""
 
     @staticmethod
-    def seed(value=0):
+    def be_accurate(value=0):
+
+        element_list = None
+
         try:
             # 整数かどうか判定
             int_value = int(str(value), 10)
+
         except ValueError:
-            # TODO 整数ではなかった
-            raise ValueError
+            # 整数ではなかった
+            #
+            # タプル型なら
+            if type(value) is tuple:
+                # いったんリストに戻して 0 の要素を追加
+                element_list = list(value)
+                element_list.append(0)
+                # タプルに変換して使う
+                return CyberNum(tuple(element_list))
+            else:
+                # TODO 整数ではなかった
+                raise ValueError
+
         else:
             # 整数だ
-            # タプルに変換、0 が入っている列を加える
-            v = value, 0
-            return CyberNum(v)
+            # リストに変換し、0 の要素を追加
+            element_list = []
+            element_list.append(int_value)
+            element_list.append(0)
 
-    @staticmethod
-    def reap(value=0):
-        pass
+        # タプルに変換して使う
+        return CyberNum(tuple(element_list))
 
     def __init__(self, value=0, order=1):
         self._order = order
         self._beadsvec = BeadsVec(value)
 
-        # 最後の列が 1 でなければいけない
-        #element_list = self._beadsvec.elements
-        #last = len(element_list) - 1
-        # if element_list[last] != 1:
-        #    raise ValueError(f"not cyber number: {self._beadsvec.dicordnum}")
-        #
-        # 1 が連続する列があってはいけない
-        #pre_element = 0
-        # for element in element_list:
-        #    if element == 1 and pre_element == element:
-        #        raise ValueError(
-        #            f"not cyber number: {self._beadsvec.dicordnum}")
-        #    pre_element = element
-
     def __str__(self):
-        # 頭に "O" を付ける
-        text = f"{self._beadsvec}"
+        """辞書順記数法"""
+        text = ""
+        for token in self.elements:
+            # print(
+            #    f"token:{token} DicOrdNum(token):{DicOrdNum(token)} text:{text}")
+            text = f"{text}o{DicOrdNum(token)}"
 
-        for i in range(1, self._order):
-            text = f"O{text}"
-
+        # 先頭だけを大文字の 'O' にする
+        # print(f"text:{text}")
+        text = f"O{text[1:]}"
         return text
 
     @property

@@ -9,7 +9,7 @@ Commentary by author:
 # Two prior knowledge
 
 📖 [dictionary-ordinal-number-notation](https://github.com/muzudho/dictionary-ordinal-number-notation)  
-📖 [beads-nested-number-notation](https://github.com/muzudho/beads-nested-number-notation)  
+📖 [beads-vector-notation](https://github.com/muzudho/beads-vector-notation)  
 
 # Install
 
@@ -21,39 +21,26 @@ pip install cybernum
 
 # Methods
 
-## seed operation
+## be_accurate() operation
 
-👇 Append prefix "O" and suffix "o0"  
+👇 Append `,0`  
 
 ```plaintext
-cn = CyberNum.seed(1)
-print(f"{cn}")             # "O1o0"
+cn = CyberNum.be_accurate((1, 2))
+print(f"{cn.elements}")                # (1, 2, 0)
 
-cn = CyberNum.seed(2)
-print(f"{cn}")             # "O2o0"
+cn = CyberNum.be_accurate(3)
+print(f"{cn.elements}")                # (3, 0)
 ```
 
 👇 Same  
 
 ```plaintext
-seed("O1o2") == "OO1o2o0"
-seed("O1o2o3") == "OO1o2o3o0"
-```
+cn = CyberNum((1, 2, 0))
+print(f"{cn.elements}")                # (1, 2, 0)
 
-## reap operation
-
-👇 Remove prefix "O" and suffix "o0"  
-
-```plaintext
-reap("OO1o2o0") == "O1o2"
-reap("OO1o2o3o0") == "O1o2o3"
-```
-
-👇 Fail  
-
-```plaintext
-reap("1o2o0")   # Not prefix "O"
-reap("O1o2")    # Not suffix "o0"
+cn = CyberNum((3, 0))
+print(f"{cn.elements}")                # (3, 0)
 ```
 
 ## Let's give an example
