@@ -1,6 +1,6 @@
-# cyber-number-notation
+# cyber-vector-notation
 
-This is a **"NOTATION"** for those who use computers  
+This is a **"NOTATION"** for those who use computers.  
 
 Commentary by author:  
 
@@ -16,60 +16,65 @@ Commentary by author:
 ```shell
 # pip install dicordnum
 # pip install beadsvec
-pip install cybernum
+pip install cybervec
 ```
 
 # Methods
 
-## be_accurate() operation
+## trail_zero() operation
+
+With trailing zero  
 
 👇 Append `,0`  
 
 ```plaintext
-cn = CyberNum.be_accurate((1, 2))
+cn = CyberVec.trail_zero((1, 2))
 print(f"{cn.elements}")                # (1, 2, 0)
 
-cn = CyberNum.be_accurate(3)
+cn = CyberVec.trail_zero(3)
 print(f"{cn.elements}")                # (3, 0)
 ```
 
 👇 Same  
 
 ```plaintext
-cn = CyberNum((1, 2, 0))
+cn = CyberVec((1, 2, 0))
 print(f"{cn.elements}")                # (1, 2, 0)
 
-cn = CyberNum((3, 0))
+cn = CyberVec((3, 0))
 print(f"{cn.elements}")                # (3, 0)
 ```
 
 # Let's give an example
 
-* It is considered to be used for variable names, class names, method names, file names, folder names, URLs, etc.
-
 ## Cons
 
-👇 Previous zero  
+* It's eccentric
+
+👇 Pre-zero cannot be used  
 
 ```plaintext
 # Normal
 0001
 
 # Cyber
-O1o0              # Pre-zero cannot be used
+O1o0
 ```
 
-👇 Hexadecimal
+👇 Hexadecimal cannot be used  
 
 ```plaintext
 # Normal
 0xFF
 
 # Cyber
-O255o0            # No. Use decimal
+O255o0            # Use decimal
 ```
 
 ## Pros
+
+* It is considered to be used for variable names, class names, method names, file names, folder names, URLs, etc.
+* Use as dictionary ordinal number
 
 👇 For Version number  
 
@@ -132,8 +137,8 @@ OA20OA18O_9O__86O5  # UPPER_SNAKE_CASE
 └── 📂 O1o0
   └── 📂 OA99o0
 
-# **TODO** Cyber Flat by "x1x"
-O0o0x1xO1o0x1xOA99o0
+// # **TODO** Cyber Flat by "x1x"
+// O0o0x1xO1o0x1xOA99o0
 ```
 
 👇 Chapter
@@ -154,4 +159,4 @@ O1o1o2o0. Banana
 O1o1oA11o0. Kiwi
 ```
 
-Now you have mastered cyber notation  
+Now you have mastered cyber vector notation  

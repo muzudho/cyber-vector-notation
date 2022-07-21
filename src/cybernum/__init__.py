@@ -3,15 +3,16 @@ from beadsvec import BeadsVec
 from dicordnum import DicOrdNum
 
 
-class CyberNum:
-    """Cyber Number"""
+class CyberVec:
+    """Cyber Vector Notation"""
 
     # めんどくさいので .upper() して 'O' と数字で構成されていればOkとする
     # 辞書順記数法に対応するために、めんどくさいので '_', 'A' が含まれていてもOkとする
     __pattern1 = re.compile(r"^([_AO\d]*)$")
 
     @staticmethod
-    def be_accurate(value=0):
+    def trail_zero(value=0):
+        """With trailing zero"""
 
         element_list = None
 
@@ -31,7 +32,7 @@ class CyberNum:
                 # TODO 整数ではなかった
 
                 # 文字列を解析する
-                element_list = CyberNum.convert_str_to_list(value)
+                element_list = CyberVec.convert_str_to_list(value)
 
         else:
             # 整数だ
@@ -43,7 +44,7 @@ class CyberNum:
         element_list.append(0)
 
         # タプルに変換して使う
-        return CyberNum(tuple(element_list))
+        return CyberVec(tuple(element_list))
 
     @staticmethod
     def convert_str_to_list(text):
@@ -51,7 +52,7 @@ class CyberNum:
         text = text.upper()
 
         # '_', 'A', 'O' と数字で構成されている必要がある
-        result = CyberNum.__pattern1.match(text)
+        result = CyberVec.__pattern1.match(text)
         if result:
             pass
         else:
@@ -92,7 +93,31 @@ class CyberNum:
 
     def __init__(self, value=0, order=1):
         self._order = order
-        self._beadsvec = BeadsVec(value)
+
+        try:
+            # 整数かどうか判定
+            int_value = int(str(value), 10)
+
+        except ValueError:
+            # 整数ではなかった
+            #
+            # タプル型なら
+            if type(value) is tuple:
+                # そのまま渡す
+                self._beadsvec = BeadsVec(value)
+
+            else:
+                # 整数ではなかった
+
+                # 文字列として解析する
+                element_list = CyberVec.convert_str_to_list(value)
+                # タプルに変換して渡す
+                self._beadsvec = BeadsVec(tuple(element_list))
+
+        else:
+            # 整数だ
+            # そのまま渡す
+            self._beadsvec = BeadsVec(int_value)
 
     def __str__(self):
         """辞書順記数法 と 数珠玉記数法 の併用"""

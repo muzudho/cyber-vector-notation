@@ -4,16 +4,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="cybernum",
+    name="cybervec",
     version="1.0.0",
     author="muzudho",
     author_email="muzudho1@gmail.com",
-    description="Cyber Number",
+    description="Cyber vector notation",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/muzudho/cyber-number-notation",
+    url="https://github.com/muzudho/cyber-vector-notation",
     project_urls={
-        "Bug Tracker": "https://github.com/muzudho/cyber-number-notation/issues",
+        "Bug Tracker": "https://github.com/muzudho/cyber-vector-notation/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
