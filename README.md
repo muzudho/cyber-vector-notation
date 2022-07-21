@@ -26,8 +26,11 @@ pip install cybernum
 👇 Append prefix "O" and suffix "o0"  
 
 ```plaintext
-seed(1) == "O1o0"
-seed(2) == "O2o0"
+cn = CyberNum.seed(1)
+print(f"{cn}")             # "O1o0"
+
+cn = CyberNum.seed(2)
+print(f"{cn}")             # "O2o0"
 ```
 
 👇 Same  

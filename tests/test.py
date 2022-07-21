@@ -4,6 +4,10 @@ python -m tests.test
 from src.cybernum import CyberNum
 
 test_data = [
+    # 種をまく
+    ['CyberNum.seed(1)', CyberNum.seed(1)],
+    ['CyberNum.seed(2)', CyberNum.seed(2)],
+
     # 数値
     ['1', CyberNum(1)],
 
@@ -25,7 +29,7 @@ test_data = [
 ]
 
 for datum in test_data:
-    print(f"{datum[0]} --> {datum[1]} {datum[1].columns}")
+    print(f'{datum[0]} --> "{datum[1]}" {datum[1].columns}')
 
 # 2 は使えない数だ
 try:
