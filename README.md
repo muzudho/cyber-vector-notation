@@ -15,7 +15,7 @@ Commentary by author:
 
 ```shell
 # pip install dicordnum
-# pip install beadsnum
+# pip install beadsvec
 pip install cybernum
 ```
 
@@ -94,7 +94,7 @@ OAA128o0o0o1o0
 └── 📂 O1o0
   └── 📂 OA99o0
 
-# Cyber Flat by "x1x"
+# **TODO** Cyber Flat by "x1x"
 O0o0x1xO1o0x1xOA99o0
 ```
 
