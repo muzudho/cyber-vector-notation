@@ -1,6 +1,6 @@
 # cyber-number-notation
 
-For those who use computers  
+This is a **"NOTATION"** for those who use computers  
 
 Commentary by author:  
 
@@ -19,126 +19,108 @@ Commentary by author:
 pip install cybernum
 ```
 
-# Explanation
+# Methods
 
-## Addition of the last two rules
+## seed operation
 
-* Ends with 1
+👇 Append prefix "O" and suffix "o0"  
 
 ```plaintext
-O0      # Bad
-O0o1    # Ok
-
-O1      # Ok
-O2      # Bad
-O2o1    # Ok
+seed(1) == "O1o0"
+seed(2) == "O2o0"
 ```
 
-* o1 cannot be placed after 1
+👇 Same  
 
 ```plaintext
-O1o1          # Bad
-O1o1o1        # Of course it's bad
-O1o2o1        # OK
-O1o11o1       # Of course it's OK
+seed("O1o2") == "OO1o2o0"
+seed("O1o2o3") == "OO1o2o3o0"
+```
 
-O1o2o1o2o1    # OK
-O1o1o1o2o1    # Of course it's bad
+## reap operation
+
+👇 Remove prefix "O" and suffix "o0"  
+
+```plaintext
+reap("OO1o2o0") == "O1o2"
+reap("OO1o2o3o0") == "O1o2o3"
+```
+
+👇 Fail  
+
+```plaintext
+reap("1o2o0")   # Not prefix "O"
+reap("O1o2")    # Not suffix "o0"
 ```
 
 ## Let's give an example
 
+👇 For Version number  
+
 ```plaintext
-O0o1
-O1
-O1o2o1
-O2o1
-O2o2o1
-O3o1
-O4o1
-O4o2o1
-O5o1
-O5o2o1
-O6o1
-O7o1
-O8o1
-O9o1
-OA10o1
-OA11o1
-OA12o1
-OA13o1
-OA50o1
-OA97o1
-OA98o1
-OA99o1
-OAA100o1
-OAA100o2o1
-OAA100o3o1
-OAA100o8o1
-OAA100o9o1
-OAA100oA10o1
+# Normal
+Version 1.0.1
+
+# Cyber
+Version O1o0o1o0
+```
+
+👇 For IPv4  
+
+```plaintext
+# Normal
+128.0.0.1
+
+# Cyber
+OAA128o0o0o1o0
+```
+
+👇 Folder
+
+```plaintext
+# Normal
+📂 00
+└── 📂 01
+  └── 📂 99
+
+# Normal Flat by "/"
+00/01/99
+
+# Cyber
+📂 O0o0          # Not O00o0
+└── 📂 O1o0
+  └── 📂 OA99o0
+
+# Cyber Flat by "x1x"
+O0o0x1xO1o0x1xOA99o0
+```
+
+👇 Chapter
+
+```plaintext
+# Normal
+1. Food
+1.1. Fruits
+1.1.1. Apple
+1.1.2. Banana
+1.1.11. Kiwi
+
+# Cyber
+O1o0. Food
+O1o1o0. Fruits
+O1o1o1o0. Apple
+O1o1o2o0. Banana
+O1o1oA11o0. Kiwi
+```
+
+👇 Negative number included  
+
+```plaintext
+# Normal
+20, 18, -1, -14, 5
+
+# Cyber
+OA20oA18o_9o__86o5
 ```
 
 Now you have mastered cyber notation  
-
-## Translation method
-
-Add 1.1 to i.  
-Add 1.1.1 to i.j.  
-Add 1.1.1.1 to i.j.k.  
-
-You may be disliked because the number changes  
-
-👇 Conversion
-
-```plaintext
-   2.3    # Number
-+  1.1.1
---------
-  O3o4o1  # Cyber number
-```
-
-👇 Reverse conversion
-
-```plaintext
-  O3o4o1  # Cyber number
--  1.1.1
---------
-   2.3    # Number
-```
-
-### Example O2o1 For Chapters
-
-```plaintext
-# Real world
-1.1 Fruits
-1.1.1 Apple
-1.2.1 Banana
-1.11.1 Kiwi
-1.2.1.2.1　Super banana
-1.1.1.2.1 Super apple
-
-# Cyber world
-O2o2o1 Fruits
-O2o2o2o1 Apple
-O2o3o2o1 Banana
-O2o12o2o1 Kiwi
-O2o3o2o3o2o1 Super banana
-O2o2o2o3o2o1 Super apple
-```
-
-### Example O3o1 For Version
-
-```plaintext
-# When the user sees
-http://example.com/tic-tac-toe/v2.3/match-application/
-                               ----
-                               1
-1. Version
-
-# Local PC
-C://This/Is/A/Path/tic_tac_toe/o3o4o1/views/match_application/__init__.py
-                               ------
-                               1
-1. Version by Cyber number
-```
