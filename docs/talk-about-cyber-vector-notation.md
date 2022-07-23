@@ -120,7 +120,7 @@ OAAA2022o0g7o0g20o0
 ```
 
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
-「　👆 `g` でつないでくれだぜ。  
+「　👆 `g` でつないでくれだぜ。 `g` の右隣の `O` は取れだぜ。  
 小文字の `g` は カンマ `,` に似ているから そうした」  
 
 ![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
@@ -329,7 +329,7 @@ O_9o__79o___679o0
 「　**あとで説明する数n** って何？」  
 
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
-「　1～9 の n は 10、 10～99 の n は 100、 100～999 の n は 1000 だぜ」  
+「　1～9 なら n は 10、 10～99 なら n は 100、 100～999 なら n は 1000 だぜ」  
 
 ![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
 「　その数の絶対値より1桁大きい数の中で最小の数だな」  

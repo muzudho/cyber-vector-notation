@@ -151,10 +151,10 @@ O_9o__79o__679o__5679o0
 O1o2o3o0 O4o5o6o0
 ```
 
-👇 `g` でつなぐ。間隔は詰める  
+👇 `g` でつなぐ。間隔は詰める。右隣の `O` は除去する  
 
 ```plaintext
-O1o2o3o0gO4o5o6o0
+O1o2o3o0g4o5o6o0
 ```
 
 小文字の 'g' を コンマ ',' に見立て、区切りに使っている  
@@ -166,13 +166,13 @@ O1o2o3o0gO4o5o6o0
 👇 ２つの 結合した電脳向量表記 を１つにまとめたいとき  
 
 ```plaintext
-O1o2o3o0gO4o5o6o0 O7o8o9o0gOA10oA11oA12o0
+O1o2o3o0g4o5o6o0 O7o8o9o0gA10oA11oA12o0
 ```
 
-👇 `gg` でつなぐ。間隔は詰める  
+👇 `g` の代わりに `gg` を使う  
 
 ```plaintext
-O1o2o3o0gO4o5o6o0ggO7o8o9o0gOA10oA11oA12o0
+O1o2o3o0g4o5o6o0gg7o8o9o0gA10oA11oA12o0
 ```
 
 以下同様に、 `ggg`, `gggg` ... を使う  
