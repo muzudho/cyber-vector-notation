@@ -191,7 +191,7 @@ O[1 0]
 どうすればいいんだぜ？」  
 
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
-「　👆 なんで そんなところに 青森が……」  
+「　なんで そんなところに 青森が……」  
 
 ![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
 「　やっぱ **リナンバリング** って要るんじゃない？」  
