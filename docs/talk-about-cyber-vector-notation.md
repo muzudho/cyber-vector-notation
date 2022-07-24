@@ -198,38 +198,46 @@ O[1 0]
 
 ```plaintext
     Step O[2 0] 大阪
-👉  Step O[3 -1 0] 青森
+👉  Step O[3 -10 0] 青森
     Step O[3 0] 愛知
 ```
 
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
-「　👆 しゃーない、テクニックとして 後ろの項目から見て **[0 -1]** の位置に追加しろだぜ」  
+「　👆 どちらかに所属してしまうのは しゃーない。  
+テクニックとして 後ろの項目から見て **[0 -10]** の位置に追加しろだぜ」  
 
 ```plaintext
     Step O[2 0] 大阪
-    Step O[3 -1 0] 青森
+    Step O[3 -10 0] 青森
+    Step O[3 -1 0] 京都
     Step O[3 0] 愛知
 ```
 
 ![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
-「　👆 青森 と 愛知 の間に 沖縄 を入れてくれだぜ」  
+「　👆 お父ん、愛知の `[0 -1]` の位置に 京都を入れてしまった。  
+京都 と 愛知 の間に 沖縄 を入れてくれだぜ」  
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　数の隙間の消費が早い……。 バイナリーサーチの考え方とか使って欲しかった」  
+
 
 ```plaintext
     Step O[2 0] 大阪
-    Step O[3 -1 0] 青森
-👉  Step O[3 0 -1 0] 沖縄
+    Step O[3 -10 0] 青森
+    Step O[3 -1 0] 京都
+👉  Step O[3 0 -100 0] 沖縄
     Step O[3 0] 愛知
 ```
 
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
-「　👆 しゃーない、テクニックとして 後ろの項目から見て **[0 0 -1]** の位置に追加しろだぜ」  
+「　👆 しゃーない、テクニックとして 後ろの項目から見て **[0 0 -100]** の位置に追加しろだぜ」  
 
 ![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
-「　大阪と愛知の間に 40県 ほど入れたくなったら 42個 数を並べるの？」  
+「　`-1000`, `-10000` とスケールアップしていく作戦なのね」  
 
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
-「　👆 しゃーない、そういう恐れがある場合は 伝説の BASIC言語の真似をして **[0 -10]** のように  
-10刻みの位置に追加してくれだぜ。 **[0 -100]** でもいい」  
+「　結局 うまく番号振らないと 隙間が速くなくなる。  
+とはいえ、なるべくセンスが一番無い人に使える技術でありたいぜ」  
 
 # O[2 0] Python実装
 
