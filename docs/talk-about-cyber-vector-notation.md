@@ -1,4 +1,4 @@
-# O[1 0]章 思いついた
+# Step 1. 思いついた
 
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
 「　電脳数（Cyber Number）を思いついたぜ」  
@@ -28,7 +28,109 @@
 ![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
 「　めんどくせ。　じゃあ　電脳数で」  
 
-# O[2 0]章 Python実装
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　もう 電脳向量表記 に変えた」  
+
+# Step 2. 電脳向量
+
+# 2.1. 代表的な使い方
+
+```plaintext
+    Step 0. 千葉
+    Step 1. 東京
+    Step 2. 大阪
+    Step 3. 愛知
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 この `Step` の右横に付いてるのは `零を含む自然数` であることが多いだろ」  
+
+![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
+「　**序数**　よね」  
+
+```plaintext
+    Step 0. 千葉
+    Step 1. 東京
+    Step 1.1. 池袋
+    Step 1.2. 秋葉原
+    Step 1.2.1. 駅前
+    Step 1.2.2. 表通り
+    Step 2. 大阪
+    Step 3. 愛知
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 章立てになってることもあるだろ。このときも `零を含む自然数` を使うことが多いだろ」  
+
+![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
+「　`Nested numbered list` だな」  
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　**電脳向量** では、 **負数** を使ってもよいことにする！ `整数` だぜ」  
+
+![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
+「　整数は 序数に向いてないんじゃないの？」  
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　序数という考え方を捨てろだぜ」  
+
+```plaintext
+👉  Step -1. 埼玉
+    Step 0. 千葉
+    Step 1. 東京
+    Step 1.1. 池袋
+    Step 1.2. 秋葉原
+    Step 1.2.1. 駅前
+    Step 1.2.2. 表通り
+    Step 2. 大阪
+    Step 3. 愛知
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 このように `Step 0.` の前に 項目を追加していけるのが 負数 だぜ」  
+
+![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
+「　他の人は そんなことをせず **リナンバリング** するぜ」  
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　電脳向量は 伝説の言語 BASIC の行番号の教えを発展させたものだぜ。  
+リナンバリングをなるべく避けるための **挿入のための数** だぜ」  
+
+```plaintext
+    Step 0. 千葉
+    Step 1. 東京
+    Step 1.1. 池袋
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 ここで」  
+
+```plaintext
+    Step 0. 千葉
+👉  Step 1.0. 東京
+    Step 1.1. 池袋
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 `Step 1.` は、 `Step 1.0.` だぜ」  
+
+```plaintext
+    Step 0. 千葉
+👉  Step 1.-1. ネズミーランド
+    Step 1.0. 東京
+    Step 1.1. 池袋
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 負数を使えば、 `Step 1.0.` の東京の前に 項目を置くことができるぜ。  
+`Step 1.-1.` は 東京だぜ。千葉ではないぜ」  
+
+![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
+「　これがやりたくて **電脳向量** と わざわざ言ってるのか」  
+
+# Step 3. 電脳向量表記
+
+## 3.1. Python実装
 
 📖 [cyber-vector-notation](https://github.com/muzudho/cyber-vector-notation)  
 
@@ -36,7 +138,7 @@
 「 👆 電脳向量表記は Python にクラスとして実装してある。もう使える。  
 話しを聞くより、動かして覚えたい人は 使ってくれだぜ」  
 
-# O[3 0]章 ベクトルを使おうぜ
+## 3.2. ベクトルを使おうぜ
 
 ```plaintext
 [128 0 0 1]
@@ -71,7 +173,7 @@ OAA128o0o0o1o0
 「　電脳向量表記では　右端の列には `0` を明示している必要があるぜ。  
 これを `With trailing zero` 、略して **`trail_zero`ルール** と呼ぶぜ」  
 
-## O[3 1 0]章 負数も扱おうぜ
+## 3.3. 負数も扱おうぜ
 
 ```plaintext
 [18 -4 -13 71]
@@ -93,7 +195,7 @@ OA18o_6o__87o71o0
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
 「　辞書順に並ぶ工夫をしてある」  
 
-# O[4 0]章 フォルダーでも使おうぜ
+# 3.4. フォルダーでも使おうぜ
 
 ```plaintext
 📂 2022
@@ -126,7 +228,7 @@ OAAA2022o0g7o0g20o0
 ![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
 「　こんなフォルダー名付けてるやつのパソコン開けたくないよな」  
 
-# O[5 0]章 章立てに振る番号でも使おうぜ
+# 3.5. 章立てに振る番号でも使おうぜ
 
 ```plaintext
 1. 食べ物
@@ -285,7 +387,7 @@ O0o0o10o0 キーウィ
 ![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
 「　**バッドノウハウ** っていうのよそれ」  
 
-# O[6 0]章 普通の表記と、電脳ベクトル表記の比較
+# 3.6. 普通の表記と、電脳ベクトル表記の比較
 
 ```plaintext
 # ふつう
@@ -337,7 +439,7 @@ O_9o__79o___679o0
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
 「　詳しくは `辞書順記数法` を見てくれだぜ。負数の説明もある」  
 
-# O[7 0]章 変数名，クラス名，フォルダー名，ファイル名 etc
+# 3.7. 変数名，クラス名，フォルダー名，ファイル名 etc
 
 ```plain
 _ 0 1 2 3 4 5 6 7 8 9  A G O a g o
@@ -405,6 +507,6 @@ o2o1banana.loadsVO2o1(r"C:\This\Is\A\Path\O2o1\bananaO3o2o1.txt")
 ![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
 「 わらう」  
 
-# O[8 0]章 関連する記事
+# Step 4. 関連する記事
 
 📖 [電脳向量表記 (Cyber Vector Notation)](https://crieit.net/posts/Cyber-Number-Notation)
