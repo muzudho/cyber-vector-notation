@@ -179,12 +179,41 @@ O[1 0]
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
 「　👆 序数に見えなければいいのか。 じゃあ　例えば　こんな感じかな」  
 
+## O[1 4 0] 兄弟の挿入
+
+```plaintext
+    Step 2. 大阪
+    Step 3. 愛知
+```
+
+![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
+「　👆 お父ん、 `大阪` の下でも `愛知` の下でもなく、 `青森` を `大阪` と `愛知` の間に挿入したいんだぜ。  
+どうすればいいんだぜ？」  
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 なんで そんなところに 青森が……」  
+
+![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
+「　やっぱ **リナンバリング** って要るんじゃない？」  
+
+```plaintext
+    Step O[2 0] 大阪
+👉  Step O[[2 1] 0] 青森
+    Step O[3 0] 愛知
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 しゃーない。 **入れ子ベクトル** を許可しようぜ？」  
+
+![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
+「　地獄の釜のフタを開けたような仕様だな」  
+
 # O[2 0] Python実装
 
 📖 [cyber-vector-notation](https://github.com/muzudho/cyber-vector-notation)  
 
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
-「 👆 電脳向量表記は Python にクラスとして実装してある。もう使える。  
+「 👆 電脳向量表記は **簡単な仕様のところだけ** Python にクラスとして実装してある。もう使える。  
 話しを聞くより、動かして覚えたい人は 使ってくれだぜ」  
 
 # O[3 0] プログラムの中で使う
@@ -569,6 +598,22 @@ o2o1banana.loadsVO2o1(r"C:\This\Is\A\Path\O2o1\bananaO3o2o1.txt")
 
 ![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
 「 わらう」  
+
+# O[3 7 0] 入れ子ベクトル
+
+```plaintext
+[[2 1] 0]
+```
+
+![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
+「 👆 入れ子ベクトルはどう表記すんの？」  
+
+```plaintext
+Oq2o1p0
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「 👆 `q` と `p` を使って かっこを表現すればいいんじゃないかな」  
 
 # O[4 0] 関連する記事
 
