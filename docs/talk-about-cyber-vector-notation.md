@@ -134,6 +134,51 @@
 ![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
 「　あんたしか使わないから 好きに呼んだらいいんじゃないの？」  
 
+## O[1 3 0] 跳び番
+
+```plaintext
+    Step 0. 千葉
+    Step 1. 東京
+    Step 2. 大阪
+    Step 3. 愛知
+    Step 5. 福岡
+    Step 6. 北海道
+```
+
+![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
+「　👆 お父ん、 `Step 4.` が抜けてるぜ！」  
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　抜けてるんだぜ」  
+
+![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
+「　何が抜けてるんだぜ！」  
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　抜いたから 気にしなくていいぜ」  
+
+![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
+「　序数が途中で抜けてたら　気になるだろ！」  
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　電脳向量は 序数ではないんで。抜けてていいぜ」  
+
+![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
+「　章立ての連番は **抜けてないことを確認するために** 使わない？」  
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　抜けてていいのが 電脳向量 だぜ」  
+
+![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
+「　序数に見えるような見た目を止めてくれだぜ」  
+
+```plaintext
+O[1 0]
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 序数に見えなければいいのか。 じゃあ　例えば　こんな感じかな」  
+
 # O[2 0] Python実装
 
 📖 [cyber-vector-notation](https://github.com/muzudho/cyber-vector-notation)  
