@@ -220,7 +220,6 @@ O[1 0]
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
 「　数の隙間の消費が早い……。 バイナリーサーチの考え方とか使って欲しかった」  
 
-
 ```plaintext
     Step O[2 0] 大阪
     Step O[3 -10 0] 青森
