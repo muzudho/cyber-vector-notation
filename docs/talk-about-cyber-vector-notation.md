@@ -535,7 +535,7 @@ O0o0o10o0 キーウィ
 2022年07月20日
 
 # 電脳ベクトル表記
-OAAA2023o7oA20o0
+OAAA2022o7oA20o0
 ```
 
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
