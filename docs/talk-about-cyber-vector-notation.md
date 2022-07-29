@@ -657,10 +657,6 @@ o2o1banana.loadsVO2o1(r"C:\This\Is\A\Path\O2o1\bananaO3o2o1.txt")
 ![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
 「 👆 入れ子ベクトルはどう表記すんの？」  
 
-```plaintext
-Oq2o1p0
-```
-
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
 「 電脳向量表記では 入れ子ベクトルは使わないぜ。  
 入れ子ベクトルを辞書順に並べるには文字数がだいぶ増えてしまうから、仕様に入れるのは諦めたぜ」  
