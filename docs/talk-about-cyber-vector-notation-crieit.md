@@ -1,3 +1,7 @@
+# O_9o0 序文
+
+電脳向量表記は、「今では廃れた技術 **BASICの行番号** はその弱点を克服すればもっと良いものになるのではないか」という課題意識を持ち続け、「ベクトル」と「負数」を使うことによって到達した１つの回答だと考えてもらって構わない  
+
 # O1o0 思いついた
 
 ## O1o1o0 何それ
@@ -85,7 +89,7 @@
 「　**超BASIC行番号** とかかな。 BASIC の行番号ではなくて、それを壮大に超える性能の振り番なんだぜ」  
 
 ![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
-「　今どきの人に BASIC の行番号って言っても　通じないでしょうしね」  
+「　今どきの人に BASIC の行番号って言っても　通じないでしょうね」  
 
 ![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
 「　**Super BASIC** という商品は　もう在るらしいぜ。名前被りだぜ」  
