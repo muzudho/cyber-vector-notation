@@ -87,6 +87,13 @@
 ![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
 「　今どきの人に BASIC の行番号って言っても　通じないでしょうしね」  
 
+![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
+「　**Super BASIC** という商品は　もう在るらしいぜ。名前被りだぜ」  
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　**自己稠密** で **辞書順** で **整数** な部分を まとめて サイバー と呼ぶことにしようぜ。  
+名前はしばらく **Cyber Vector** を使ってみて 良い案が出たら　また考えようぜ？」  
+
 ## O1o2o0 お見せしよう
 
 ```plaintext
