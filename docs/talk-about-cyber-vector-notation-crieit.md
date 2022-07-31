@@ -371,7 +371,7 @@ OAA128o0o0o1o0
 「　`A` は 辞書順に並べるために 2桁以上の正の整数の前に詰めていく。詳しくはあとで説明する」  
 
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
-「　小文字の `o` はカンマの代わりだぜ。  
+「　小文字の `o` はポイント（ `.`）の代わりだぜ。形が似てるだろ。  
 大文字、小文字は区別しない」  
 
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
@@ -382,18 +382,73 @@ OAA128o0o0o1o0
 ## O3o2o0 負数も扱おうぜ
 
 ```plaintext
-[18 -4 -13 71]
+[18  -4  -13  71]
 ```
 
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
 「　👆 負数だって扱いたいよな」  
 
 ```plaintext
+[18  -4  -13  71  0]
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 `trail_zero` しろだぜ」  
+
+```plaintext
+18  -4  -13  71  0
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 括弧を外して」  
+
+```plaintext
+18o-4o-13o71o0
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 区切りは `o` にして詰めて」  
+
+```plaintext
+18o 4o  13o71o0
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 負数は符号を外して、桁数が２倍になるようにスペースを空けろだぜ」  
+
+```plaintext
+18o_4o__13o71o0
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 空いたスペースはアンダースコア（`_`）で埋めろだぜ」  
+
+```plaintext
+   10  100
+18o_4o__13o71o0
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 その数より１桁多い数の中で最小の数を　上に置けだぜ」  
+
+
+```plaintext
+   10  100
+18o_4o__13o71o0
+   --  ---
+   _6  _87
+```
+
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　👆 引けだぜ」  
+
+```plaintext
 OA18o_6o__87o71o0
 ```
 
 ![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
-「　👆 電脳向量表記では　こうだぜ」  
+「　👆 負数は差を使えだぜ。  
+これが負数を使った 電脳向量表記 だぜ」  
 
 ![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
 「　読みにくくなってるわよね」  
