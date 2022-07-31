@@ -81,6 +81,12 @@
 ![202101__character__28--kifuwarabe-futsu.png](https://crieit.now.sh/upload_images/e846bc7782a0e037a1665e6b3d51b02462d7c6e036697.png)  
 「　もっと適切な名前があるんじゃないかだぜ？」  
 
+![202101__character__31--ramen-tabero-futsu2.png](https://crieit.now.sh/upload_images/5b53e954894672b36c716412a272826b62d7c6c5ba4a3.png)  
+「　**超BASIC行番号** とかかな。 BASIC の行番号ではなくて、それを壮大に超える性能の振り番なんだぜ」  
+
+![202108__character__12--ohkina-hiyoko-futsu2.png](https://crieit.now.sh/upload_images/31f0f35be3a4b6b05ce597c7aab702b762d7c6fae1599.png)  
+「　今どきの人に BASIC の行番号って言っても　通じないでしょうしね」  
+
 ## O1o2o0 お見せしよう
 
 ```plaintext
