@@ -259,7 +259,7 @@ O1o0g2o0
 # O3o2o0 正規表現
 
 ```textplain
-([0-9AaOo_]+)
+([0-9AaGgOo_]+)
 ```
 
 # OAA100o0 関連する記事
